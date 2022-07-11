@@ -1,0 +1,138 @@
+.places {
+  text-align: center;
+}
+.places h1 {
+  font-size: 30px;
+  text-align: left;
+}
+
+article {
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ff5a5f;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: top;
+}
+article h2 {
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.price_by_night {
+  color: #ff5a5f;
+  border: 4px solid #ff5a5f;
+  border-radius: 50%;
+  min-width: 60px;
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 62px;
+  float: right;
+  position: relative;
+  top: -80px;
+}
+
+div.information {
+  margin-bottom: 20px;
+  height: 80px;
+  border-top: 1px #dddddd solid;
+  border-bottom: 1px #dddddd solid;
+}
+div.max-guest,
+div.number_rooms,
+div.number_bathrooms {
+  line-height: 132px;
+  width: 100px;
+  height: 70px;
+  display: inline-block;
+  background-position: 50% 7px;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 40px;
+}
+div.max-guest {
+  background-image: url("../images/icon_group.png");
+}
+div.number_rooms {
+  background-image: url("../images/icon_bed.png");
+}
+div.number_bathrooms {
+  background-image: url("../images/icon_bath.png");
+}
+.user,
+.description {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+article div.amenities,
+article div.reviews {
+  margin-top: 40px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+div.amenities h2,
+div.reviews h2 {
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 0px;
+}
+div.reviews h2 {
+  padding-top: 30px;
+}
+article div.amenities ul,
+article div.reviews ul {
+  text-align: left;
+  list-style-type: none;
+  float: left;
+  margin-top: 20px;
+  padding: 0px;
+}
+article div.reviews ul {
+  margin-top: 0px;
+}
+div.reviews h3 {
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+div.reviews p {
+  margin: 5px;
+  font-size: 12px;
+}
+#tv,
+#tv2,
+#wifi,
+#wifi2,
+#pets,
+#pets1,
+#pets2 {
+  background-position: 0% 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 50px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+#tv,
+#tv2 {
+  background-image: url("../images/icon_tv.png");
+}
+
+#wifi,
+#wifi2 {
+  background-image: url("../images/icon_wifi.png");
+}
+
+#pets,
+#pets1,
+#pets2 {
+  background-image: url("../images/icon_pet.png");
+}
